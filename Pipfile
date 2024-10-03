@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-text-splitters = "*"
+langchain-openai = "*"
+langchain-community = "*"
+langchain = "*"
+pypdf = "*"
+chromadb = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
